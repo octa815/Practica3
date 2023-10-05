@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="./imagenes/sunegamilogo.png">
+    <title>Resultados de Búsqueda - SUNEGAMI</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./imagenes/sunegamilogo.png" alt="logo"></a>
+        <h1>Resultados de Búsqueda - SUNEGAMI</h1>
+        <form action="buscar.html">
+            <input type="search">
+            <input type="submit" value="Buscar">
+        </form>
+        <ul>
+            <li><a href="login.html" class="icon-login"><span>Login</span></a></li>
+            <li><a href="registro.html" class="icon-doc-new"><span>Registro</span></a></li>
+        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="buscar.html">Buscar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="resultados-busqueda">
+            <h2>Resultados de la búsqueda</h2>
+            <ul>
+                <li>
+                    
+                    <a href="detalle.html"><img src="./imagenes/muradin.jpg" alt="Foto 1"></a>
+                    <h3>Título de la Foto 1</h3>
+                    <p>Fecha: 2023-09-26</p>
+                    <p>País: País 1</p>
+                    <a href="detalle.html">Ver detalle</a>
+                </li>
+                <!-- Repetir estructura similar para otros resultados de búsqueda -->
+                <li>
+                    <a href="mensaje_error.html"><img src="./imagenes/unnamed.jpg" alt="Foto 2"></a>
+                    <h3>Título de la Foto 2</h3>
+                    <p>Fecha: 2023-09-25</p>
+                    <p>País: País 2</p>
+                    <a href="mensaje_error.html">Ver detalle (Usuario no registrado)</a> 
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;
+            <time datetime ="2023-09-25"> José Ángel Mercadillo & Octavio Gregorio </time>
+            <abbr title = "DAW"> Practica 2 </abbr>
+        </p>
+    </footer>
+</body>
+</html>
