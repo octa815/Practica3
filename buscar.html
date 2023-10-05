@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagenes/sunegamilogo.png">
+    <title>Formulario de Búsqueda de Fotos - SUNEGAMI</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./imagenes/sunegamilogo.png" alt="logo"></a>
+        <h1>Formulario de Búsqueda de Fotos - SUNEGAMI</h1> 
+        <form>
+            <input type="search">
+            <input type="submit" value="Buscar">
+        </form>
+        <ul>
+            <li><a href="login.html" class="icon-login"><span>Login</span></a></li>
+            <li><a href="registro.html" class="icon-doc-new"><span>Registro</span></a></li>
+        </ul>
+        <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="buscar.html">Buscar</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="formulario-busqueda">
+            <h2>Realizar una búsqueda de fotos</h2>
+            <form action="resultado.html" method="get">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo">
+                <br>
+                <label for="fecha1">Fecha entre:</label>
+                <input type="date" id="fecha1" name="fecha1">
+                <label for="fecha2"> y:</label>
+                <input type="date" id="fecha2" name="fecha2">
+                <br>
+                <label for="pais">País:</label>
+                <input type="text" id="pais" name="pais">
+                <br>
+                <input type="submit" value="Buscar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;
+            <time datetime ="2023-09-25"> José Ángel Mercadillo & Octavio Gregorio </time>
+            <abbr title = "DAW"> Practica 2 </abbr>
+        </p>
+    </footer>
+</body>
+</html>
