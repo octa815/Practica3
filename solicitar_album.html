@@ -74,11 +74,11 @@
                     </p>
                     <p>
                         <label for="titulo">Titulo del album: </label>
-                        <input type="text" id="titulo" name="titulo" placeholder="descripción" required>(*)
+                        <input type="text" id="titulo" name="titulo" maxlength="200" placeholder="descripción" required>(*)
                     </p>
                     <p>
                         <label for="texto_ad">Texto adicional: </label>
-                        <textarea id="texto_ad" name="texto_ad" placeholder="contenido del álbum" maxlength="1000"></textarea>
+                        <textarea id="texto_ad" name="texto_ad" placeholder="contenido del álbum" maxlength="4000"></textarea>
                     </p> 
                     <p>
                         <label for="correo">Correo electrónico: </label>
@@ -88,7 +88,7 @@
                         <label for="direccion">Dirección: </label>
                         <input type="text" id="direccion" name="direccion" placeholder="Calle" required>
                     
-                        <label for="numero">Numero: </label>
+                        <label for="numero">Numero: </label> 
                         <input type="text" id="numero" name="numero" placeholder="Número" size="3" required>
                     
                         <label for="cp">CP: </label>
@@ -118,11 +118,11 @@
                         <input type="color" id="color_portada" name="color_portada" value="#000000">
                     </p>
                     <p>
-                        <label for="copias">Número de copias </label>
+                        <label for="copias">Número de copias </label><!--TODO: hacer  que haya máximo de 99 y mínimo 1-->
                         <input type="text" id="copias" name="copias" size="3">
                     </p> 
                     <p>
-                        <label for="res">Resolución de impresión: </label>
+                        <label for="res">Resolución de impresión: </label> <!--TODO: : rango entre 150 y 900 DPI, en incrementos de 150. Valor por defecto 150.-->
                         <select id="res" name="res">
                             <option value="" disabled selected hidden>dpi</option>
                             <option value="1">125 dpi</option>
